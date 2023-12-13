@@ -1,0 +1,57 @@
+th{
+    padding: 12px;
+    text-align: left;
+    width: 200px;
+    color:white;
+    background-color: #57b846;
+    font-weight: bold;
+    padding:12px 15px;
+    height: 30px;
+
+
+}
+
+td{
+    border-bottom: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+    width: 200px;
+    color:black;
+    background-color: white;
+    padding:12px 15px;
+    height: 30px;
+
+
+}
+
+.conteineradmin{
+    border-collapse: collapse;
+    font-size: 15px;
+    width: 850px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.rightbodylowerAdmin{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.SerchDiv{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.SearchButton{
+    background-color: white;
+    border-color: #57b846;
+    width: 60px;
+    height: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+}

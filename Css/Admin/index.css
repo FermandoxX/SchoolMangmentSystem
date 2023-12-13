@@ -1,0 +1,227 @@
+.head{
+    width: 88%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 800px;
+    background-color: rgb(48, 47, 47);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 180px;
+    }
+
+.head div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.SchoolImage{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.PersonImage{
+    width: 70px;
+    border-radius: 50px;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    padding-left: 70px;
+    padding-top: 15px;
+}
+
+.leftbody{
+  width: 17%;  
+  height: auto;
+  padding-top: 10px;
+  box-shadow: 5px 5px 10px rgb(184, 183, 183);
+  padding: 40px;
+}
+
+.rightbody{
+   width: 100%;
+   padding-left: 25px;
+   padding-right: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+
+.leftbody div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.PersonImage2{
+    width: 35%;
+    border-radius: 50px;
+}
+
+.navigator a{
+    text-decoration: none;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: gray;
+}
+
+.navigator a:active{
+color: blueviolet;
+}
+
+.navigator{
+
+    align-items: baseline;
+}
+
+.navigator div{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.dashboard{
+    margin-right: 45px;
+}
+
+
+.rightbodyUper{
+    width: 99.75%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 385px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+
+}
+
+
+
+.rightbodyLower{
+
+    display: flex;
+    flex-direction: row;
+    gap: 330px;
+    padding-top: 30px;
+    
+
+}
+.student{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+
+}
+
+.teacher{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+
+
+}
+
+
+.parent{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+
+
+}
+
+
+.staff{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-shadow: 5px 5px 10px rgb(184, 183, 183);
+
+}
+
+.UserDefault{
+    position: absolute;
+    right: 5%;
+    top: 16%;
+    height: auto;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.UserDefault a{
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+    display: flex;
+    gap: 10px;
+}
+
+.AdminName{
+    height:100%; 
+    cursor: pointer;
+}
+
+.AdminName:active{
+    opacity: 0.5;
+}
+
+.NewPassword{
+    margin-left: 21px;
+}
+
+.CreateAdminButton{
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    color: black;
+    border-radius: 75px;
+    border-color:#57b846;
+    background-color: white;
+    font-size: 17px;
+}
+
+.CreateAdminButton:active
+{
+    background-color: #57b846;
+    color: white;
+}

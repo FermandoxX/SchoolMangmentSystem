@@ -1,0 +1,71 @@
+.CreateDiv{
+
+    position: fixed;
+    right: -450px;
+    bottom: 0;
+    width: 430px;
+    height: 100%;
+    overflow: auto;
+    background-color: white;
+  
+}
+
+.DivCreateHeader{
+    border-bottom: 1.5px solid lightgray;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    white-space: nowrap;
+    background-color: #57b846;   
+}
+
+.CreateAdminHeaderParagraph{
+    color: white;
+}
+
+.CreateAdminBodyDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.CreateAdminBodyParagraph{
+    color: gray;
+    margin: 0 0 0 22px;
+
+}
+
+.CreateAdminBodyInput{
+    height: 30px;
+    margin-left: 22px;
+    width: 350px;
+}
+
+.CreateAdminBodyLowParagraph{
+    color: gray;
+    font-size: 11px;
+    margin: 0 0 0 22px;
+
+}
+
+.DivCreateAdminBody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+ .CreateAdminBodyButton{
+    height: 35px;
+    margin-left: 22px;
+    width: 360px;
+    background-color: #57b846;
+    color: white;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 50px;
+ }

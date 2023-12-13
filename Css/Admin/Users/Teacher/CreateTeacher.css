@@ -1,0 +1,22 @@
+.SubjectDiv{
+    margin-left: 20px;
+    width: 358px;
+}
+
+.SubjectHeader{
+    width: 356px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    color: gray;
+    cursor: pointer;
+}
+
+.CheckboxDiv{
+    background-color: #57b846;
+    color: white;
+    display: none;
+}
